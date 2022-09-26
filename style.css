@@ -1,0 +1,29 @@
+body{
+    font-family: monospace;
+    font-size: 20px;
+    background-color:rgb(249, 216, 176);
+}
+ul{
+line-height: 17px;
+}
+#header{
+    background-color: rgb(255, 182, 94);
+    padding-top: .8cm;
+    padding-left: 1.8cm;
+    padding-bottom: 2cm;
+    height: max-content;
+    width:100%;
+    overflow: auto;
+    
+}
+a{
+color: black;
+}
+.flex{
+    display: flex;
+    background-color:bisque;
+  }
+.flex>div{
+    margin: 15px;
+    text-align: left;
+}
